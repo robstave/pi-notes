@@ -1,0 +1,14 @@
+
+-----------
+To stop a service doesn't prevent the deamon to start the service on boot. 
+For this you should deactivate the service to come up on all run levels
+
+A simple command for this on raspbian is 
+
+update-rc.d apache2 disable 
+
+If you later want the webserver starts again on default just type  
+
+update-rc.d apache2 enable'
+
+With the comand sudo /etc/init.d/apache2 start you bring up the web server on demand.
