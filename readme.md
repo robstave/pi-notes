@@ -3,7 +3,13 @@
 
 A collection of notes that I accumulated over time.  Seems like it would be easier to just maintain it as a repository
 
+## Purge 
 
+
+sudo apt-get purge wolfram-engine
+sudo apt-get remove --purge libreoffice*
+sudo apt-get clean
+sudo apt-get autoremove
 
 
 
